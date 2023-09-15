@@ -808,7 +808,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7ce47228-0b1c-4f41-9fb4-b32f3da1c4c3)
   )
-  (text "Notes, \n\nI(LED) current calculation\nI(LED) = Vset/R1\nR1=100 so I(LED) = Vset/100\nR2=18k and R3=10k => Vset=1.79V\nSo I(LED) = 0.0179A or ~18mA. \n\nResistors\nR1, 100 C2092039\nR2, 18k C284387 or C304987\nR3, 10k C319935\n\nCapacitors\nC1, C3, C4, 10uF  ceramic capacitors C237279\nC2, 1uF   ceramic capacitor  C2917681\nC4, 0.1uF ceramic capacitor  C3012376\n"
+  (text "Notes, \n\nI(LED) current calculation\nI(LED) = Vset/R1\nR1=100 so I(LED) = Vset/100\nR2=10k and R3=10k => Vset=2.5V\nSo I(LED) = 0.025A or ~25mA. \n\nResistors\nR1, 100 C2092039\nR2, R3 10k C319935\n\nCapacitors\nC1, C3, C4, 10uF  ceramic capacitors C237279\nC2, 1uF   ceramic capacitor  C2917681\nC4, 0.1uF ceramic capacitor  C3012376\n"
     (at 198.12 154.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ea5642d2-35b1-49db-a217-5fd09292600b)
@@ -940,7 +940,7 @@
     (property "Value" "LED_ALT" (at 164.2872 97.8408 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 161.29 96.52 0)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (at 161.29 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 161.29 96.52 0)
@@ -1350,7 +1350,7 @@
     (property "Reference" "R2" (at 119.888 75.0316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "18k" (at 119.888 77.343 0)
+    (property "Value" "10k" (at 119.888 77.343 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 116.332 76.2 90)
