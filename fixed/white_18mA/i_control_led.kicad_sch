@@ -804,6 +804,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4619ff14-617a-43de-97c1-51cf9b7e8343)
   )
+  (text "Transistor saturated, but not \nmaking enough current through LED."
+    (at 151.765 76.327 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 682387b1-fd3d-4d06-835d-e4eab40012af)
+  )
   (text "Constant current controller for LED" (at 120.65 58.42 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7ce47228-0b1c-4f41-9fb4-b32f3da1c4c3)
