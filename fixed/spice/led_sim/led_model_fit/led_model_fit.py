@@ -48,6 +48,10 @@ if __name__ == '__main__':
     vdata = [0.0,   2.6,  2.97,  3.13]
     idata = [0.0, 0.001, 0.010, 0.020]
 
+    #vdata = [0.0, 3.8]
+    #idata = [0.0, 0.02]
+
+
     Is, N = fit_diode_model(vdata, idata)
     print()
     print(f'Is = {Is}')
@@ -59,7 +63,7 @@ if __name__ == '__main__':
     print()
 
     fig, ax = plt.subplots(1,1)
-    Vd = np.linspace(0.0,2.13,100)
+    Vd = np.linspace(min(vdata),max(vdata),100)
     Id = diode_equation(Vd, Is, N)
     plt.plot(Vd, 1e3*Id)
     ax.set_xlabel('Vd (V)')
@@ -67,7 +71,7 @@ if __name__ == '__main__':
     ax.grid(True)
 
     fig, ax = plt.subplots(1,1)
-    Vd = np.linspace(2.6,3.13,100)
+    Vd = np.linspace(min(vdata),max(vdata),100)
     Id = diode_equation(Vd, Is, N)
     plt.semilogy(Vd, 1e3*Id)
     ax.set_xlabel('Vd (V)')

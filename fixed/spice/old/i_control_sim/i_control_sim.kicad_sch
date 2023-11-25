@@ -620,7 +620,7 @@
     (property "Reference" "R1" (at 171.958 90.2716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "30" (at 171.958 92.583 0)
+    (property "Value" "20" (at 171.958 92.583 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 168.402 91.44 90)
