@@ -13,7 +13,7 @@
         (company) 
         (rev) 
         (date) 
-        (source i_control_led.sch) 
+        (source radial_18mA.sch) 
         (comment 
           (number 1) 
           (value "")) 
