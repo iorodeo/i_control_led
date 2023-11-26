@@ -13,7 +13,7 @@
         (company) 
         (rev) 
         (date) 
-        (source radial_18mA.sch) 
+        (source radial_16mA.sch) 
         (comment 
           (number 1) 
           (value "")) 
