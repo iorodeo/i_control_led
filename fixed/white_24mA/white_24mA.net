@@ -1,0 +1,214 @@
+(export 
+  (version D) 
+  (design 
+    (source /home/wbd/work/products/basic_led/520nm/basic_led.sch) 
+    (date "Sun 02 Jan 2022 01:19:41 PM PST") 
+    (tool "Eeschema 5.1.7-a382d34a8~87~ubuntu18.04.1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source white_24mA.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref J1) 
+      (value Conn_01x04) 
+      (footprint BOOMELE_SH_SMD:BOOMELE_SMD_SH_4PIN_RT) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x04) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 617588B6)) 
+    (comp 
+      (ref J2) 
+      (value Conn_01x04) 
+      (footprint BOOMELE_SH_SMD:BOOMELE_SMD_SH_4PIN_RT) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x04) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 617591D1)) 
+    (comp 
+      (ref D1) 
+      (value LED_ALT) 
+      (footprint LED_SMD:LED_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED_ALT) 
+        (description "Light emitting diode, filled shape")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 617C0FF2)) 
+    (comp 
+      (ref R1) 
+      (value 27) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 617C7054))) 
+  (libparts 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x04) 
+      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x04)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part LED_ALT) 
+      (description "Light emitting diode, filled shape") 
+      (docs ~) 
+      (footprints 
+        (fp LED*) 
+        (fp LED_SMD:*) 
+        (fp LED_THT:*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) LED_ALT)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R) 
+      (description Resistor) 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive))))) 
+  (libraries 
+    (library 
+      (logical Connector_Generic) 
+      (uri /usr/share/kicad/library/Connector_Generic.lib)) 
+    (library 
+      (logical Device) 
+      (uri /usr/share/kicad/library/Device.lib))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(D1-Pad1)") 
+      (node 
+        (ref D1) 
+        (pin 1)) 
+      (node 
+        (ref R1) 
+        (pin 1))) 
+    (net 
+      (code 2) 
+      (name /3V3) 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 2)) 
+      (node 
+        (ref D1) 
+        (pin 2))) 
+    (net 
+      (code 3) 
+      (name GND) 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref J2) 
+        (pin 1))) 
+    (net 
+      (code 4) 
+      (name /SDA) 
+      (node 
+        (ref J1) 
+        (pin 3)) 
+      (node 
+        (ref J2) 
+        (pin 3))) 
+    (net 
+      (code 5) 
+      (name /SCL) 
+      (node 
+        (ref J2) 
+        (pin 4)) 
+      (node 
+        (ref J1) 
+        (pin 4)))))
