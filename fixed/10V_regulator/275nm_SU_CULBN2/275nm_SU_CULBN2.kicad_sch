@@ -290,11 +290,11 @@
         )
       )
     )
-    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
+    (symbol "Device:LED_Pad" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 5.715 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "LED" (at 0 -2.54 0)
+      (property "Value" "LED_Pad" (at 0 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -303,16 +303,16 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "LED diode" (at 0 0 0)
+      (property "ki_keywords" "LED diode pad" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Light emitting diode" (at 0 0 0)
+      (property "ki_description" "Light emitting diode with pad" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "LED_0_1"
+      (symbol "LED_Pad_0_1"
         (polyline
           (pts
             (xy -1.27 -1.27)
@@ -331,6 +331,24 @@
         )
         (polyline
           (pts
+            (xy 0 -2.54)
+            (xy 0 -2.032)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 -0.508)
+            (xy -2.032 -2.032)
+            (xy 2.032 -2.032)
+            (xy 2.032 -0.508)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
             (xy 1.27 -1.27)
             (xy 1.27 1.27)
             (xy -1.27 0)
@@ -341,28 +359,28 @@
         )
         (polyline
           (pts
-            (xy -3.048 -0.762)
-            (xy -4.572 -2.286)
-            (xy -3.81 -2.286)
-            (xy -4.572 -2.286)
-            (xy -4.572 -1.524)
+            (xy -0.889 1.397)
+            (xy 0.635 2.921)
+            (xy -0.127 2.921)
+            (xy 0.635 2.921)
+            (xy 0.635 2.159)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy -1.778 -0.762)
-            (xy -3.302 -2.286)
-            (xy -2.54 -2.286)
-            (xy -3.302 -2.286)
-            (xy -3.302 -1.524)
+            (xy 0.381 1.397)
+            (xy 1.905 2.921)
+            (xy 1.143 2.921)
+            (xy 1.905 2.921)
+            (xy 1.905 2.159)
           )
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "LED_1_1"
+      (symbol "LED_Pad_1_1"
         (pin passive line (at -3.81 0 0) (length 2.54)
           (name "K" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -370,6 +388,10 @@
         (pin passive line (at 3.81 0 180) (length 2.54)
           (name "A" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+          (name "PAD" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -658,6 +680,8 @@
   (junction (at 118.11 29.21) (diameter 0) (color 0 0 0 0)
     (uuid f03945bc-db0d-45c7-8dc0-595e66a455ee)
   )
+
+  (no_connect (at 73.66 110.998) (uuid 1ea09fe5-ebb8-40d8-8033-34b74de99f51))
 
   (wire (pts (xy 53.34 29.21) (xy 67.31 29.21))
     (stroke (width 0) (type default))
@@ -1078,32 +1102,6 @@
     )
   )
 
-  (symbol (lib_id "Device:LED") (at 68.58 110.998 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-0000617c0ff2)
-    (property "Reference" "D1" (at 71.5772 110.0074 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "LED" (at 71.5772 112.3188 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 68.58 110.998 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 68.58 110.998 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 88fc2d85-b3f7-4137-8e59-fa4cc1acfefb))
-    (pin "2" (uuid a58d6f55-6dd4-4a75-ab8d-f28048e9be8a))
-    (instances
-      (project "275nm_SU_CULBN2"
-        (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
-          (reference "D1") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 68.58 124.968 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000617c7054)
@@ -1328,6 +1326,33 @@
       (project "275nm_SU_CULBN2"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED_Pad") (at 68.58 110.998 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2971d000-9c34-43ee-918b-33ebf8791805)
+    (property "Reference" "D1" (at 64.77 109.728 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "LED_Pad" (at 64.77 112.268 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "LED_1414:LED_1414" (at 68.58 110.998 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 68.58 110.998 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0682b4a8-442d-4deb-81bc-84a561609740))
+    (pin "2" (uuid df057dd7-79b7-4bb2-a99c-2e01db5655e9))
+    (pin "3" (uuid acae4ddc-bfde-4542-8ed5-d07311a8e2f6))
+    (instances
+      (project "275nm_SU_CULBN2"
+        (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
+          (reference "D1") (unit 1)
         )
       )
     )
