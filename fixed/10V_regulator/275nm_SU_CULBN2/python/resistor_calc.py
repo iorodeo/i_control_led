@@ -27,7 +27,7 @@ print(f'r2       = {r2} (Ohm)')
 print(f'r3       = {r3} (Ohm)')
 print()
 
-# Actual components - round to neared see how much tol matters
+# Actual components - round too see how it matters
 n2 = int(np.floor(np.log10(r2))) - (digits2-1) 
 r2 = round(r2,-n2)
 n3 = int(np.floor(np.log10(r3))) - (digits3-1)
