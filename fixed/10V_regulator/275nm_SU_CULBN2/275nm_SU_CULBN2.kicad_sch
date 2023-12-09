@@ -962,7 +962,7 @@
     (uuid 4619ff14-617a-43de-97c1-51cf9b7e8343)
   )
   (text "Components:\n\nR1,				10		C854481\nR2,				24k		C138026\nR3,				590		C3015623\nR4 R5,			14k		C3015834\nR6,				2k		C60488\n\n\nC1, C2, C4		1uF		C29266\nC4,				10uF	C315248\nC3				0.1uF	C3012376\n\nL1 (0603)		22uF	C383393\n\nD1 275nm UV LED			Global Parts OSRAM SU CULBN2.VC\nD2 Schottky diode 		C2837790\n"
-    (at 210.82 138.43 0)
+    (at 199.898 146.558 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6433bd5c-96c9-4a0b-a131-83b5acce0a24)
   )
