@@ -517,7 +517,7 @@
     (uuid ff2e3a1e-2713-4907-a97f-95045f87d9ec)
   )
 
-  (text ".tran 500u 10m \n.option method=gear abstol=1e-12 reltol=0.005"
+  (text ".tran 500u 5m \n.option method=gear abstol=1e-12 reltol=0.005"
     (at 67.31 96.52 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b189bbf0-cb48-47ff-bc63-f1d8593624d2)
@@ -658,7 +658,7 @@
     (property "Sim.Pins" "1=K 2=A" (at 172.72 81.28 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Sim.Params" "is=1.42n rs=3.3 n=7.3" (at 170.18 77.47 0)
+    (property "Sim.Params" "is=1.2n rs=3.3 n=13.7" (at 170.18 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a570e45d-0261-4eed-b5df-60c555c11167))
@@ -696,7 +696,7 @@
     (property "Sim.Device" "V" (at 85.09 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Sim.Params" "y1=0 y2=0.5 td=0.1n tr=10m tf=10m tw=10m per=30m" (at 81.153 79.8802 0)
+    (property "Sim.Params" "y1=0 y2=0.5 td=0.1n tr=5m tf=5m tw=5m per=15m" (at 81.153 79.8802 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "1" (uuid 50d89b8a-32fb-4e14-81b2-03a185e72fea))
@@ -833,7 +833,7 @@
     (property "Reference" "V3" (at 110.49 34.4142 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "dc(5)" (at 110.49 36.9542 0)
+    (property "Value" "dc(10)" (at 110.49 36.9542 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 106.807 35.814 0)

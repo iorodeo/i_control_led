@@ -51,8 +51,11 @@ if __name__ == '__main__':
     #vdata = [0.0, 3.8]
     #idata = [0.0, 0.02]
 
-    vdata = [0.0, 4.0]
-    idata = [0.0, 0.02]
+    #vdata = [0.0, 4.0]
+    #idata = [0.0, 0.02]
+
+    vdata = [0.0, 6.0]
+    idata = [0.0, 0.025]
 
 
     Is, N = fit_diode_model(vdata, idata)

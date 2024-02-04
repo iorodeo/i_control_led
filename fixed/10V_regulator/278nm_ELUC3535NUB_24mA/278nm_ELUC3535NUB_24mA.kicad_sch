@@ -961,7 +961,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4619ff14-617a-43de-97c1-51cf9b7e8343)
   )
-  (text "Components:\n\nR1,				10		C854481\nR2,				24k		C138026\nR3,				590		C3015623\nR4 R5,			14k		C3015834\nR6,				2k		C60488\n\n\nC1, C2, C4		1uF		C29266\nC4,				10uF	C315248\nC3				0.1uF	C3012376\n\nL1 (0603)		22uF	C383393\n\nD1 278nm UV LED			Global Parts Everlight Electronics ELUC3535NUB\nD2 Schottky diode 		C2837790\n"
+  (text "Components:\n\nR1,				10		C854481\nR2,				24k		C138026\nR3,				590		C3015623\nR4 R5,			14k		C3015834\nR6,				2k		C60488\n\n\nC1, C2, C4		1uF		C29266\nC4,				10uF	C315248\nC3				0.1uF	C3012376\n\nL1 (0603)		22uF	C383393\n\nD1 278nm UV LED			Global Parts Everlight Electronics ELUC3535NUB\nD2 Schottky diode 		C2837790\n\nU1 boost converter   C102618\nU2 AS321 op amp    C144156\n\n"
     (at 199.898 146.558 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6433bd5c-96c9-4a0b-a131-83b5acce0a24)
@@ -1698,7 +1698,7 @@
     (property "Reference" "U2" (at 49.53 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LMV321" (at 46.99 100.838 0)
+    (property "Value" "AS321" (at 46.99 100.838 0)
       (effects (font (size 0.762 0.762)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 48.26 100.838 0)

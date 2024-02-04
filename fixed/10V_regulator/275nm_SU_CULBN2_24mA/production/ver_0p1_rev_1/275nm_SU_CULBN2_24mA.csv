@@ -20,4 +20,4 @@
 "11","2","R4, R5","14k","Device:R","Resistor_SMD:R_0402_1005Metric","~",""
 "12","1","R6","2k","Device:R","Resistor_SMD:R_0402_1005Metric","~",""
 "13","1","U1","AP3012","Regulator_Switching:AP3012","Package_TO_SOT_SMD:SOT-23-5","https://www.diodes.com/assets/Datasheets/AP3012.pdf",""
-"14","1","U2","LMV321","Amplifier_Operational:LMV321","Package_TO_SOT_SMD:SOT-23-5","http://www.ti.com/lit/ds/symlink/lmv324.pdf",""
+"14","1","U2","AS321","Amplifier_Operational:AS321","Package_TO_SOT_SMD:SOT-23-5","",""
