@@ -1782,7 +1782,7 @@
     (property "Value" "D_Schottky" (at 95.5675 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_0402_1005Metric" (at 95.25 29.21 0)
+    (property "Footprint" "Diode_SMD:D_SOD-523" (at 95.25 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.25 29.21 0)
