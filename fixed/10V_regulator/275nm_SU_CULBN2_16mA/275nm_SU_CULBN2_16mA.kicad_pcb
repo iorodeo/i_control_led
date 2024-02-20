@@ -1260,7 +1260,7 @@
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp ba45682b-6545-421d-aa84-e110f690b4e0))
   (gr_line (start 75.4 52.5) (end 75.4 67.5)
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp c69f82b4-a55e-4b16-9ff7-37ec7d98d9d4))
-  (gr_text "IControl HV LED V0.1 R1\nwww.iorodeo.com\n275nm, I=16mA\nVin=3.3-5.0V" (at 62.7 60) (layer "B.SilkS") (tstamp 0265f73c-f391-49ee-9b90-7bf95ccfbbe0)
+  (gr_text "IControl HV LED V0.1 R2\nwww.iorodeo.com\n275nm, I=16mA\nVin=3.3-5.0V" (at 62.7 60) (layer "B.SilkS") (tstamp 0265f73c-f391-49ee-9b90-7bf95ccfbbe0)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
 
