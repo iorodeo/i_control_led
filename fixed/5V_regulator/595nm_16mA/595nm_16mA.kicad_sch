@@ -829,7 +829,7 @@
     (uuid f859dc7a-0114-43dd-ae97-c8d81523d65c)
   )
 
-  (text "JST SM04B-SRSS-TB\nLCSC# C160404\n\nOld Boomle: LCSC#  C145956\n"
+  (text "JST SM04B-SRSS-TB\nLCSC# C160404\n\nOld Boomle: LCSC#  C145956\nNew Boomle: LSCS#  C970137\n"
     (at 227.457 53.594 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 15086ef4-0c0f-4e49-819a-85d96ff3bdff)
@@ -942,7 +942,7 @@
     (pin "3" (uuid 64b325c0-4689-4160-91bf-d047741860ff))
     (pin "4" (uuid 5f116311-0616-464e-99c7-5d58eb653917))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "J1") (unit 1)
         )
@@ -970,7 +970,7 @@
     (pin "3" (uuid c97634a3-aa0d-4ec3-9abb-b63d0c73b815))
     (pin "4" (uuid 23d2b8ca-10c6-4796-aade-4de766c12a78))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "J2") (unit 1)
         )
@@ -996,7 +996,7 @@
     (pin "1" (uuid 88fc2d85-b3f7-4137-8e59-fa4cc1acfefb))
     (pin "2" (uuid a58d6f55-6dd4-4a75-ab8d-f28048e9be8a))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "D1") (unit 1)
         )
@@ -1022,7 +1022,7 @@
     (pin "1" (uuid 005812fe-1e5e-415e-8717-7e8e53c4a761))
     (pin "2" (uuid f12542a0-fc2b-4fa5-bd48-bea5b21eb4e7))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "R1") (unit 1)
         )
@@ -1047,7 +1047,7 @@
     )
     (pin "1" (uuid 1a3d7295-725a-4b9e-8097-5be3ec37f956))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "#PWR08") (unit 1)
         )
@@ -1072,7 +1072,7 @@
     )
     (pin "1" (uuid 2f00f569-d18d-427d-b1e8-fa55c605fe30))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "#FLG0101") (unit 1)
         )
@@ -1097,7 +1097,7 @@
     )
     (pin "1" (uuid 4de55171-0696-48ae-afe7-c8105c65d229))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "#FLG0102") (unit 1)
         )
@@ -1122,7 +1122,7 @@
     )
     (pin "1" (uuid eb7b7557-80e9-4d90-ba52-182913d5c1c3))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "#PWR0101") (unit 1)
         )
@@ -1148,7 +1148,7 @@
     (pin "1" (uuid b298af4e-9b2e-4e79-9483-e4e3c2425a23))
     (pin "2" (uuid 658d72bc-0788-4af0-8c03-61520ce080c9))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "C4") (unit 1)
         )
@@ -1174,7 +1174,7 @@
     (pin "1" (uuid 31b1b684-37b0-4198-b0c3-87f61f162c24))
     (pin "2" (uuid 803d5afa-ba46-456c-a15f-7366e4e4e83b))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "C3") (unit 1)
         )
@@ -1199,7 +1199,7 @@
     )
     (pin "1" (uuid 116c18a9-0e40-48c9-8dda-83101a5cf340))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "#PWR06") (unit 1)
         )
@@ -1224,7 +1224,7 @@
     )
     (pin "1" (uuid 3d286801-83d0-469f-a8ce-3cff36634aeb))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "#PWR011") (unit 1)
         )
@@ -1249,7 +1249,7 @@
     )
     (pin "1" (uuid f53e9342-e2eb-47ef-91a8-996710782d7c))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "#PWR09") (unit 1)
         )
@@ -1274,7 +1274,7 @@
     )
     (pin "1" (uuid 17887906-7d64-40d1-9def-2a7f652dd58b))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "#PWR04") (unit 1)
         )
@@ -1304,7 +1304,7 @@
     (pin "5" (uuid 4a7befdb-413e-4914-b4cc-5b514a2021a9))
     (pin "6" (uuid 5dec5ce3-8b5d-4edc-bd92-c74e279dca84))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "U1") (unit 1)
         )
@@ -1330,7 +1330,7 @@
     (pin "1" (uuid 16c561a4-36d7-4fe0-844a-c04243f0687f))
     (pin "2" (uuid 4d1c523c-d4e5-442f-b6cb-359702d5c572))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "C1") (unit 1)
         )
@@ -1355,7 +1355,7 @@
     )
     (pin "1" (uuid fa5edf28-d00a-4617-8f26-6d4bb28d1f87))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "#FLG01") (unit 1)
         )
@@ -1380,7 +1380,7 @@
     )
     (pin "1" (uuid 47471ce3-5d13-4d48-8ba6-a577323eda98))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "#PWR05") (unit 1)
         )
@@ -1405,7 +1405,7 @@
     )
     (pin "1" (uuid 27ec7e16-8063-44a7-a20e-4084b17c42a1))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "#PWR07") (unit 1)
         )
@@ -1431,7 +1431,7 @@
     (pin "1" (uuid 0cc5bdee-63cf-4b0d-bc15-3c4c4dca1daf))
     (pin "2" (uuid f262d759-16fa-43d8-b6da-e7d216d9a48d))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "C2") (unit 1)
         )
@@ -1456,7 +1456,7 @@
     )
     (pin "1" (uuid 2193e9a6-c0a9-4e62-b277-e7598a7d51b6))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "#PWR010") (unit 1)
         )
@@ -1482,7 +1482,7 @@
     (pin "1" (uuid 214e5b5a-9d8c-44bb-b2fa-93425ad1c074))
     (pin "2" (uuid 56052d1c-c84a-4a9d-a6e8-00e90e8a6769))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "R2") (unit 1)
         )
@@ -1511,7 +1511,7 @@
     (pin "3" (uuid c00dbcf7-10b6-4f96-9cae-cb09f77d64c3))
     (pin "4" (uuid f1273d9c-d2cc-4176-9844-51ec745e6c3a))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "U2") (unit 1)
         )
@@ -1538,7 +1538,7 @@
     (pin "2" (uuid 493aacc6-f1d6-4279-b388-9debfc3ce255))
     (pin "3" (uuid 43a491c7-fedd-414d-ae1b-6d5bb7984f6b))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "Q1") (unit 1)
         )
@@ -1564,7 +1564,7 @@
     (pin "1" (uuid 05b3ba81-317f-4731-98c8-7ad439d88c74))
     (pin "2" (uuid 57467ebc-9833-48fa-afd1-9bd051a21b1b))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "R3") (unit 1)
         )
@@ -1590,7 +1590,7 @@
     (pin "1" (uuid 26131123-6b5a-4e23-9a75-07b30c574366))
     (pin "2" (uuid d897f798-8e4e-40dd-90e5-a8b0c39b0706))
     (instances
-      (project "white_16mA"
+      (project "595nm_16mA"
         (path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
           (reference "L1") (unit 1)
         )
