@@ -1,0 +1,1 @@
+.model LED1 D(Is=1e-19 N=2.1 Rs=2.5 Eg=2.1)
