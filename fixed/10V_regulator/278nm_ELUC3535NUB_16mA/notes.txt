@@ -1,3 +1,8 @@
+
+* missing trace between D1 and L1. 
+
+* JLCPCB put LED on wrong way around.
+
 * Footprints for J1 and J2 (C145956) aren't quite right and had to be corrected
   by JLCPCB. Ask for exact footprint specs ... data sheet doesn't seem to
   specify it completely.  
