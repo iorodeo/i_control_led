@@ -75,7 +75,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "production/ver_0p1_rev_2/gerber/")
+      (outputdirectory "production/ver_0p1_rev_3/gerber/")
     )
   )
 
@@ -1033,6 +1033,8 @@
     )
   )
 
+  (gr_rect (start 69.2023 55.5) (end 74.7776 64.5)
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "B.SilkS") (tstamp 63e77194-cfc6-4412-9f44-acdf27113ddf))
   (gr_circle (center 62.7 60) (end 65.1 60)
     (stroke (width 0.25) (type solid)) (fill none) (layer "F.SilkS") (tstamp 3ecad02f-b4f1-4908-8f99-5d2dceb98ee3))
   (gr_arc (start 72.9 50) (mid 74.667767 50.732233) (end 75.4 52.5)
@@ -1051,7 +1053,10 @@
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp ba45682b-6545-421d-aa84-e110f690b4e0))
   (gr_line (start 75.4 52.5) (end 75.4 67.5)
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp c69f82b4-a55e-4b16-9ff7-37ec7d98d9d4))
-  (gr_text "IControl LED V0.1 R2\nwww.iorodeo.com\n\n\n\nRadial, I=16mA\nVin=3.3-5.0V" (at 62.7 60.01) (layer "B.SilkS") (tstamp 0265f73c-f391-49ee-9b90-7bf95ccfbbe0)
+  (gr_text "IControl LED \nV0.1 R3\nwww.iorodeo.com\n" (at 62.7 52.5) (layer "B.SilkS") (tstamp 0265f73c-f391-49ee-9b90-7bf95ccfbbe0)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "Radial, I=16mA\nVin=3.3-5.0V\n" (at 62.7 68) (layer "B.SilkS") (tstamp 87b40a55-12bf-45a4-9701-e69a4148ae4e)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
 
