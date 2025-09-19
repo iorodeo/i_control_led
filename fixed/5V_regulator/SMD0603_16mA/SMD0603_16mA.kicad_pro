@@ -468,7 +468,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "660nm_16mA.kicad_pro",
+    "filename": "SMD0603_16mA.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -525,7 +525,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "basic_led.net",
-      "plot": "",
+      "plot": "production/ver_0p1_rev_2/gerber/",
       "pos_files": "",
       "specctra_dsn": "i_control_led.dsn",
       "step": "",
