@@ -1435,6 +1435,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71b1baa7-45b0-4c1a-92a2-51388fab3802")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23* *SC*70*")
 		(path "/bd0110af-6400-4f35-b945-0aa3d6a86e99")
 		(sheetname "/")
@@ -2959,6 +2972,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a2e9858-e32e-4564-b584-75e19d3f84d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Texas*R*PDSO*G6*")
 		(path "/5e91c8e5-19aa-4edc-89cd-92751a0d98a2")
 		(sheetname "/")
@@ -3426,6 +3452,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c9af0bd0-1596-485a-a071-d9cb73f9e3ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "0"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6555d89-9475-4bb8-87c5-b2f29efa36a8")
 			(effects
 				(font
 					(size 1 1)
