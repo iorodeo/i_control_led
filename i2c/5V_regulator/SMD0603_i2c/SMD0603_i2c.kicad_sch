@@ -2259,6 +2259,12 @@
 		(uuid "dadc3c35-a28a-4b86-b708-60452880d59f")
 	)
 	(junction
+		(at 88.9 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db24f95b-4155-4175-9fb6-5272381352a3")
+	)
+	(junction
 		(at 33.02 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2283,6 +2289,16 @@
 			(type default)
 		)
 		(uuid "012ab682-35a1-40a1-b721-ae11d9506b98")
+	)
+	(wire
+		(pts
+			(xy 88.9 129.54) (xy 88.9 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0402c5a6-8411-42d2-bc1c-49da4019f91d")
 	)
 	(wire
 		(pts
@@ -2576,7 +2592,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 119.38) (xy 85.344 119.38)
+			(xy 77.47 119.38) (xy 88.9 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2603,6 +2619,16 @@
 			(type default)
 		)
 		(uuid "4d432476-57b9-4e6b-a2a5-4e1c93d42d87")
+	)
+	(wire
+		(pts
+			(xy 88.9 119.38) (xy 88.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d696e21-b2fe-4045-bec2-73d16e54c8be")
 	)
 	(wire
 		(pts
@@ -2833,6 +2859,16 @@
 			(type default)
 		)
 		(uuid "89122a26-2311-4675-ac0b-b23482fb6ca8")
+	)
+	(wire
+		(pts
+			(xy 88.9 119.38) (xy 99.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce67e75-56ea-4bdf-b3f1-28209a5089ec")
 	)
 	(wire
 		(pts
@@ -3285,7 +3321,7 @@
 		(uuid "9566d9a3-8e78-45dd-9f8b-d416f8b7929d")
 	)
 	(label "5V"
-		(at 85.344 119.38 0)
+		(at 99.06 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3458,6 +3494,15 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C160404"
+			(at 198.755 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e39faab4-839c-4a23-b862-419bc8fb193c")
 		)
@@ -3530,6 +3575,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part #" "C160404"
+			(at 234.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3777,7 +3831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.3652 49.53 0)
 			(effects
 				(font
@@ -3801,6 +3855,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part #" "C962136"
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3869,6 +3932,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4233,6 +4305,73 @@
 	(symbol
 		(lib_name "GND_11")
 		(lib_id "power:GND")
+		(at 88.9 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "364a10cc-c435-4bb9-b768-49b1c033b040")
+		(property "Reference" "#PWR02"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3532587-6eee-4734-89cf-23ca0ad277b5")
+		)
+		(instances
+			(project "SMD0603_i2c"
+				(path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_11")
+		(lib_id "power:GND")
 		(at 33.02 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4550,7 +4689,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 32.0548 124.46 0)
 			(effects
 				(font
@@ -4574,6 +4713,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part #" "C962136"
+			(at 33.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4818,7 +4966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.5752 40.64 0)
 			(effects
 				(font
@@ -4842,6 +4990,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part #" "C962136"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4887,7 +5044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 76.5048 121.92 0)
 			(effects
 				(font
@@ -4911,6 +5068,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part #" "C1713"
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4979,6 +5145,15 @@
 			)
 		)
 		(property "Description" "0.6A Ic, 160V Vce, NPN Transistor, SOT-23"
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C41095"
 			(at 115.57 59.69 0)
 			(effects
 				(font
@@ -5553,6 +5728,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 88.9 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1f1ce68-cb72-4a89-a6cc-005832a9affd")
+		(property "Reference" "C6"
+			(at 92.456 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 92.456 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 87.9348 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1713"
+			(at 88.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b55b7866-5339-4efc-9aff-8993268cd31b")
+		)
+		(pin "2"
+			(uuid "48c496af-abdb-49b6-9258-ea07acc9b793")
+		)
+		(instances
+			(project "SMD0603_i2c"
+				(path "/71f5df2a-3457-4c71-8742-5c7d73c5aae8"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_11")
 		(lib_id "power:GND")
 		(at 118.11 90.17 0)
@@ -5669,6 +5922,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part #" "C114862"
+			(at 40.767 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5788,7 +6050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 118.11 46.99 0)
 			(effects
 				(font
